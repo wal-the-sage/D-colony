@@ -8,6 +8,7 @@ body{
 }
 /*nav maenu on the left as a unordered list*/
 .navbar{
+    width: 100%;
     display:flex;
     align-items: center;
     padding:20px;
@@ -62,7 +63,7 @@ p{
     color: #555;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -112,6 +113,14 @@ p{
 .header .row{
     margin-top: 70px;
 }
+
+.header .container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
 .headerImgCont{
     display: flex;
     width: 100%;
@@ -224,7 +233,7 @@ small{
 .testimonial .col-3 img{
     width:50px;
     margin-top: 20px;
-    border-radius: 50%;/*square images converted to round shape box*/
+    border-radius: 50%;/*square ../images converted to round shape box*/
 }
 .testimonial .col-3:hover{
     transform: translateY(-10px);
