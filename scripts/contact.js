@@ -1,3 +1,4 @@
+//  for the contact page of the D-colony website, ensuring a clean and modern design that aligns with the overall aesthetic of the site.
    var MenuItems = document.getElementById("MenuItems");
         MenuItems.style.maxHeight = "0px";
 
@@ -29,4 +30,5 @@
             formMessage.style.display = 'block';
 
             this.reset();
+
         });

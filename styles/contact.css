@@ -1,3 +1,4 @@
+      /* for the contact page of the D-colony website, ensuring a clean and modern design that aligns with the overall aesthetic of the site. */
         * {
             margin: 0;
             padding: 0;
@@ -6,7 +7,7 @@
         }
 
         body {
-            /*background-color: #0a0a0a;*/
+    
             color: #e0e0e0;
             overflow-x: hidden;
         }
