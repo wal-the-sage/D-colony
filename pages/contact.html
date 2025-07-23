@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Colony | Fashion House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px" alt="ChicVogue Logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="inquiry.html">Enquiry</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Cart"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="Menu">
+            </div>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#D Colony</h2>
+        <p>Timeless Elegance, Redefined</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2 style='color: #d4af37'>Connect With Our Artisans</h2>
+            <p style='color: #d4af37'>Inquire about our exclusive collections or visit our atelier in Lagos.</p>
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p style='color: #d4af37'>Lagos, Nigeria</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <p style='color: #d4af37'>contact@chicvogue.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <p style='color: #d4af37'>+234 123 456 7890</p>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <p style='color: #d4af37'>Monday to Saturday: 10:00 AM to 18:00 PM</p>
+                </li>
+            </ul>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.724092157283!2d3.344944314769936!3d6.429675295344589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae682f951%3A0x2b8f3f8a3b0f8c7e!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2s!4v1676498542792!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details" class="section-p1">
+        <form id="contactForm">
+            <span>LEAVE A MESSAGE</span>
+            <h2>Share Your Vision</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="normal">Submit</button>
+            <div id="formMessage" class="message"></div>
+        </form>
+        <div class="people">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDe4Puv0dyl_LMVddgS3Lb3bHUBsraVdthA&s" alt="Ava Thompson">
+                <p><span>Ava Thompson</span> Creative Director<br>Phone: +234 123 456 7890<br>Email: ava@chicvogue.com</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmosLNK6eZsFlzbb51QtgxOXgHBW0SsLFUqQ&s" alt="Liam Carter">
+                <p><span>Liam Carter</span> Brand Manager<br>Phone: +234 123 456 7890<br>Email: liam@chicvogue.com</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdrkNdumT-XgDOUdMgaleHw1Zr1F2cB0satw&s" alt="Sophia Lee">
+                <p><span>Sophia Lee</span> Client Relations<br>Phone: +234 123 456 7890<br>Email: sophia@chicvogue.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Join Our Exclusive Circle</h4>
+            <p>Discover our latest collections and <span>exclusive offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your email address" required>
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2025 -D Colony </p>
+            
+        </div>
+    </div>
+
+    <script src='../scripts/contact.js'>
+
+    </script>
+</body>
+</html>
