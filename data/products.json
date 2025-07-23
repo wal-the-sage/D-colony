@@ -1,0 +1,86 @@
+[
+  {
+    "image": "images/product-11.jpg",
+    "title": "Downshifter Sports Shoes",
+    "price": "$50.00",
+    "rating": 3.5,
+    "category": "featured"
+  },
+  {
+    "image": "images/product-2.jpg",
+    "title": "Lace-Up Running Shoes",
+    "price": "$35.00",
+    "rating": 4.5,
+    "category": "featured"
+  },
+  {
+    "image": "images/product-3.jpg",
+    "title": "Lace Fastening Shoes",
+    "price": "$15.00",
+    "rating": 4,
+    "category": "featured"
+  },
+  {
+    "image": "images/product-10.jpg",
+    "title": "Flat Lace-Fastening Shoes",
+    "price": "$48.00",
+    "rating": 3,
+    "category": "featured"
+  },
+  {
+    "image": "images/product-5.jpg",
+    "title": "Flat Heel gray hoes",
+    "price": "$50.00",
+    "rating": 3.5,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-3.jpg",
+    "title": "Lace-Fastening black Shoes",
+    "price": "$21.00",
+    "rating": 4.5,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-7.jpg",
+    "title": "HRX Men's cotton socks",
+    "price": "$09.00",
+    "rating": 4,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-2.jpg",
+    "title": "Lace-Up Running Shoes",
+    "price": "$35.00",
+    "rating": 3,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-7.jpg",
+    "title": "HRX cotton socks",
+    "price": "$10.00",
+    "rating": 3.5,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-10.jpg",
+    "title": "Flat Lace-Fastening Shoes",
+    "price": "$48.00",
+    "rating": 4.5,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-11.jpg",
+    "title": "Loafers Men (Gray)",
+    "price": "$15.00",
+    "rating": 3,
+    "category": "latest"
+  },
+  {
+    "image": "images/product-12.jpg",
+    "title": "Lace-Fastening white Shoes",
+    "price": "$21.00",
+    "rating": 3,
+    "category": "latest"
+  }
+]
