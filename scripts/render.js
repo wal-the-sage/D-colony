@@ -11,21 +11,23 @@ function renderStars(rating) {
 }
 
 function createProductCard(product) {
+   const priceValue = parseFloat(product.price.replace('$', '')) || 0;
   return `
-    <div class="pro">
-      <img src="${product.image}" alt="${product.title}">
+    <div class="pro" onclick="window.location.href='pages/products-details.html?id=${product.id}'">
+      <img src="${product.imageUrl}" alt="${product.name || 'Product Image'}">
       <div class="des">
         <span>${product.brand || "D|Colony"}</span>
-        <h5>${product.title}</h5>
+        <h5>${product.name || 'Unnamed Product'}</h5>
         <div class="star">
-          ${renderStars(product.rating)}
+           ${renderStars(product.ratings || 0)}
         </div>
-        <h4>${product.price}</h4>
+        <h4>$${priceValue.toFixed(2)}</h4>
       </div>
-      <a href="products-details.html"><i class="fas fa-shopping-cart cart"></i></a>
+      <a href="pages/products-details.html?id=${product.id}"><i class="fas fa-shopping-cart cart"></i></a>
     </div>
   `;
 }
+
 
 
 fetch('data/products.json')
