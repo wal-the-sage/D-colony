@@ -33,9 +33,11 @@
                         <li><a href="#" data-page="pages/contact.html">Contact</a></li>
                         <li><a href="#" data-page="pages/events.html">Events</a></li>
                         <li><a href="#" data-page="pages/blogs.html">Blogs</a></li>
+                        <li><a href="#" data-page="pages/inquiry.html">Inquiry</a></li>
+
                     </ul>
                     </nav>
-                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <a href="#" data-page="pages/inquiry.html"><img src="../images/cart.png" width="30px" height="30px"></a>
                     <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
                 </div>
                 <div class="row index">
@@ -47,7 +49,7 @@
                     <div class="col-2 ">
                         <div class="headerImgCont">
                             <img src="images/fashionHead.png" class="headerImg">
-                            <img src="images/headerImg2.png" class="headerImg">
+                            <img src="images/headerImg2.png" class="headerImg china">
                         </div>
        
                     </div>
@@ -92,7 +94,7 @@
             </div>
         </div>
 
-        <!--------------------------`   offer   --------------------------------->
+        <!-------------------------- offer   --------------------------------->
         <div class="offer">
             <div class="small-container">
                 <div class="row">
@@ -206,19 +208,7 @@
         
         
         <!-----------------------------------js for toggle menu----------------------------------------------->
-        <script>
-            var menuItems=document.getElementById("MenuItems");
-            
-            MenuItems.style.maxHeight="0px";
-            function menutoggle(){
-                if(MenuItems.style.maxHeight == "0px"){
-                    MenuItems.style.maxHeight="200px";
-                }
-                else{
-                    MenuItems.style.maxHeight="0px";
-                }
-            }
-        </script>
+
         <script src="scripts/render.js" defer></script>
         <script src="scripts/links.js" defer></script>
 

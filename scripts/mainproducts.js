@@ -41,7 +41,7 @@ function renderProducts(products) {
                         </div>
                         <h4>$${priceValue.toFixed(2)}</h4>
                     </div>
-                    <a href="products-details.html?id=${product.id}"><i class="fas fa-shopping-cart cart"></i></a>
+                    <a href="pages/products-details.html?id=${product.id}"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
             `;
             container.innerHTML += productHtml;
