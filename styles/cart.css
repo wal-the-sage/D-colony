@@ -95,6 +95,25 @@ td img {
     background-color: #066d5a;
 }
 
+/* .cart-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: clamp(0.7rem, 1.5vw, 0.75rem);
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Ensure the cart link is positioned relatively */
+/* a[data-page="../pages/cart.html"] {
+  position: relative;
+  display: inline-block;
+}  */
+
 /* Media Queries */
 @media (max-width: 768px) {
     .small-container {
