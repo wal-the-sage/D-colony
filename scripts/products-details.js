@@ -6,6 +6,8 @@ const productId = urlParams.get('id');
 const product = productsData.products.find(p => p.id === productId);
 let priceValue = 0; // Define globally for addToCart access
 
+// Function to update cart item count display
+
 // Render product details
 function renderProductDetails() {
     if (!product) {
@@ -90,6 +92,7 @@ function addToCart(event) {
 
         localStorage.setItem('cart', JSON.stringify(cart));
         console.log('Cart updated successfully:', cart);
+        updateCartCount(); // Update cart count after adding item
         alert('Product added to cart!');
         window.location.href = 'cart.html';
     } catch (error) {
@@ -98,17 +101,7 @@ function addToCart(event) {
     }
 }
 
-// Initial render
-document.addEventListener('DOMContentLoaded', () => {
-    renderProductDetails();
-});
-
-
-
-// ==================================================                ====================================
-// =============================================== Related products  ====================================
-
- // Function to render stars based on rating
+// Function to render stars based on rating
 function renderStars(rating) {
     let stars = '';
     for (let i = 1; i <= 5; i++) {
@@ -163,7 +156,9 @@ function renderRelatedProducts() {
     console.log(`Rendered ${relatedProducts.length} related products.`);
 }
 
-// Initial render for related products
+// Initial render
 document.addEventListener('DOMContentLoaded', () => {
+    renderProductDetails();
     renderRelatedProducts();
+    updateCartCount(); // Update cart count on page load
 });
