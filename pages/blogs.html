@@ -39,11 +39,8 @@
                     <li><a href="#" data-page="pages/inquiry.html">Inquiry</a></li>
                 </ul>
             </nav>
-            <ul id="MenuItems">
-                <li>
-                    <a href="#" id="cartcount" data-page="pages/cart.html"><img src="../images/maincart.png" width="30px" height="30px"></a>
-                </li>
-            </ul>
+            <a href="#" data-page="pages/cart.html"><img src="../images/cart.png" width="30px" height="30px"></a>
+
             <img src="../images/menu.png" class="menu-icon" onClick="menutoggle()" >
         </div>
 
@@ -61,9 +58,7 @@
             </div>
             <div class="blog-details">
                 <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
-                <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies
-                    yr wolf chartreuse hexagon irony, godard...
-                </p>
+                <p>Discover why this cozy zip-up hoodie is a must-have for off-duty days. Style meets comfort in the best way possible.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>13/01</h1>
@@ -74,9 +69,7 @@
             </div>
             <div class="blog-details">
                 <h4>How to Style a Quiff</h4>
-                <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies
-                    yr wolf chartreuse hexagon irony, godard...
-                </p>
+                <p>Level up your grooming game with our step-by-step guide to achieving the perfect quiff—classic, bold, and timeless.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>13/04</h1>
@@ -87,9 +80,7 @@
             </div>
             <div class="blog-details">
                 <h4>Must-Have Skater Girl Items</h4>
-                <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies
-                    yr wolf chartreuse hexagon irony, godard...
-                </p>
+                <p>From chunky sneakers to oversized tees, here’s everything you need to channel that effortlessly cool skater vibe.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>12/01</h1>
@@ -100,9 +91,7 @@
             </div>
             <div class="blog-details">
                 <h4>Runway-Inspired Trends</h4>
-                <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies
-                    yr wolf chartreuse hexagon irony, godard...
-                </p>
+                <p>Peek behind the curtain of fashion week and discover the standout pieces and trends that are taking over the streets.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>16/01</h1>
@@ -113,9 +102,7 @@
             </div>
             <div class="blog-details">
                 <h4>AW20 Menswear Trends</h4>
-                <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies
-                    yr wolf chartreuse hexagon irony, godard...
-                </p>
+                <p>Bold layers, muted palettes, and classic tailoring—see what’s defining the Autumn/Winter 2020 menswear scene.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>10/03</h1>
@@ -177,26 +164,17 @@
             <p class="copyright">Copyright 2025 - DColony Fashion</p>
         </div>
     </div>
-    
+
+    <div class="marquee-container">
+        <div class="marquee" id="eventMarquee"></div>
+    </div>
+
+    <script src="../scripts/marquee.js"></script>
+
     <!-- javascript script file link -->
     <script src="../scripts/render.js"></script>
     <script src="../scripts/links.js" ></script>
-
-    <!-----------------------------------js for toggle menu----------------------------------------------->
-    <script>
-        var menuItems=document.getElementById("MenuItems");
-        
-        MenuItems.style.maxHeight="0px";
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px"){
-                MenuItems.style.maxHeight="200px";
-            }
-            else{
-                MenuItems.style.maxHeight="0px";
-            }
-        }
-    </script>
-      <script src="../scripts/cart.js"></script>
+    
 </body>
 
 </html>

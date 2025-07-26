@@ -73,7 +73,7 @@ function addToCart(event) {
             quantity: quantity,
             size: size
         };
-
+        console.log('hi')
         let cart = [];
         try {
             const storedCart = localStorage.getItem('cart');

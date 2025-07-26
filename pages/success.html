@@ -11,6 +11,7 @@
     <!-- Icons -->
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/190/190411.png" type="image/png">
     <link rel="stylesheet" href="../styles/addstyle.css">
+    <link rel="stylesheet" href="../styles/style.css">
 
 </head>
 
@@ -162,7 +163,7 @@ p {
         </div>
 
         <h1>Order Successfully Placed!</h1>
-        <p>Thank you for your purchase! Your order has been confirmed, and you're all set!</p>
+        <p id="items-ordered"></p>
       
 
         <p>A confirmation email is on its way. Happy shopping!</p>
@@ -171,6 +172,31 @@ p {
             <a href="products.html" class="btn">Continue Shopping</a>
         </div>
     </div>
+    <div class="marquee-container">
+        <div class="marquee" id="eventMarquee"></div>
+    </div>
+    <script>
+        let raw_cartItems=localStorage.getItem('cart')
+        let cartItems=JSON.parse(raw_cartItems)
+        console.log(cartItems)
+        let paragraph = document.getElementById('items-ordered')
+        let ordered_text=""
+        for (let index = 0; index < cartItems.length; index++) {
+            const item = cartItems[index];
+            console.log(item)
+            if (index !== cartItems.length -1 ){
+                ordered_text+=`${item.quantity} size ${item.size} ${item.name},`
+
+            }else{
+                ordered_text+=`${item.quantity} size ${item.size} ${item.name}.`
+
+            }
+
+        }       
+        paragraph.innerHTML ="Thank you for your purchase! you ordered " + ordered_text + "\n Your order has been confirmed, and you're all set!"
+    </script>
+
+    <script src="../scripts/marquee.js"></script>
 
 </body>
 </html>

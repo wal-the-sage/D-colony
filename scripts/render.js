@@ -57,77 +57,49 @@ fetch('data/products.json')
 
 const trustees = [
     {
-        photo: "https://randomuser.me/api/portraits/women/65.jpg",
-        name: "Dr. Emily Johnson",
-        position: "Chairperson",
-        expertise: "Fashion Industry Leader"
+      photo: "images/leon.jpeg",
+      name: "Leon Obaniyan",
+      position: "Treasurer",
+      expertise: "Financial Strategist"
     },
     {
-        photo: "https://randomuser.me/api/portraits/men/32.jpg",
-        name: "Robert Chen",
-        position: "Vice Chair",
-        expertise: "Retail Operations Expert"
+      photo: "images/wal.jpeg",
+      name: "Mustapha Wale",
+      position: "Chairperson",
+      expertise: "Technology Innovation"
     },
     {
-        photo: "https://randomuser.me/api/portraits/women/44.jpg",
-        name: "Sarah Williams",
-        position: "Secretary",
-        expertise: "Sustainable Fashion Advocate"
+      photo: "images/osaze.jpeg",
+      name: "Osazenovban okundaye",
+      position: "Vice Chair",
+      expertise: "Fashion Industry Leader"
     },
     {
-        photo: "https://randomuser.me/api/portraits/men/75.jpg",
-        name: "David Rodriguez",
-        position: "Treasurer",
-        expertise: "Financial Strategist"
+      photo: "images/Aize.jpeg",
+      name: "Aizenosa okundaye",
+      position: "Secretary",
+      expertise: "Sustainable Fashion Advocate"
     },
     {
-        photo: "https://randomuser.me/api/portraits/women/28.jpg",
-        name: "Priya Patel",
-        position: "Trustee",
-        expertise: "Global Supply Chain"
+      photo: "images/sherifat.jpeg",
+      name: "Enigbokan Faheezah",
+      position: "Trustee",
+      expertise: "Brand Development"
+    },
+  
+    {
+      photo: "images/gilbert.jpeg",
+      name: "Brisk Brino Gilbert",
+      position: "Trustee",
+      expertise: "Global Supply Chain"
     },
     {
-        photo: "https://randomuser.me/api/portraits/men/82.jpg",
-        name: "James Wilson",
-        position: "Trustee",
-        expertise: "Technology Innovation"
+      photo: "images/oma.jpeg",
+      name: "Sule Omachi",
+      position: "Trustee",
+      expertise: "Financial Strategist"
     },
-    {
-        photo: "https://randomuser.me/api/portraits/women/53.jpg",
-        name: "Michelle Kim",
-        position: "Trustee",
-        expertise: "Brand Development"
-    },
-    {
-        photo: "https://randomuser.me/api/portraits/men/45.jpg",
-        name: "Thomas Okafor",
-        position: "Trustee",
-        expertise: "African Markets"
-    },
-    {
-        photo: "https://randomuser.me/api/portraits/women/37.jpg",
-        name: "Lisa Schmidt",
-        position: "Trustee",
-        expertise: "Customer Experience"
-    },
-    {
-        photo: "https://randomuser.me/api/portraits/men/68.jpg",
-        name: "Daniel Nguyen",
-        position: "Trustee",
-        expertise: "E-commerce Specialist"
-    },
-    {
-        photo: "https://randomuser.me/api/portraits/women/19.jpg",
-        name: "Natalie Rivera",
-        position: "Trustee",
-        expertise: "Marketing Strategy"
-    },
-    {
-        photo: "https://randomuser.me/api/portraits/men/91.jpg",
-        name: "Marcus Lee",
-        position: "Trustee",
-        expertise: "International Expansion"
-    }
+
 ];
 
 function renderTrustees() {
