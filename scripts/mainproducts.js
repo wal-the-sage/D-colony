@@ -15,7 +15,7 @@ function renderStars(rating) {
 
 // Function to render products
 function renderProducts(products) {
-    const container = document.getElementById('productContai');
+    const container = document.getElementById('productContainer');
     if (!container) {
         console.error("Error: productContainer element not found in the DOM.");
         document.body.innerHTML += '<div class="error-message">Error: Product container not found. Please check the HTML structure.</div>';
